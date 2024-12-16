@@ -298,7 +298,7 @@
 		(remove_unused_layers no)
 		(uuid "4fffdc73-14eb-469d-b571-84aff513f768")
 	)
-	(model "/Users/jackson/PCB/custom/3D Models/V275LA40AP.step"
+	(model "${CUSTOM_DIR}/3D Models/V275LA40AP.step"
 		(offset
 			(xyz 3.749999944 -1.249999981 -25.17999993)
 		)

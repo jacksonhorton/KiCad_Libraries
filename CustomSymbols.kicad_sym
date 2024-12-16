@@ -291,6 +291,195 @@
 			)
 		)
 	)
+	(symbol "ECQ-E4105KF"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 8.89 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "ECQ-E4105KF"
+			(at 8.89 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "CustomFootprints:ECQE4105KF"
+			(at 8.89 -96.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C179.pdf"
+			(at 8.89 -196.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PANASONIC - ECQ-E4105KF - CAPACITOR POLYESTER FILM, 1UF, 400VDC, 10%, RADIAL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "18"
+			(at 8.89 -396.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ECQ-E4105KF"
+			(at 8.89 -496.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ECQ-E4105KF?qs=FaGJejDeu%252B%2Fy%2Fa6s5CifsQ%3D%3D"
+			(at 8.89 -596.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 8.89 -696.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ECQ-E4105KF"
+			(at 8.89 -796.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "ECQ-E4105KF_1_1"
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 5.588 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.588 2.54) (xy 5.588 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.112 0) (xy 7.62 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.112 2.54) (xy 7.112 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "ESP32-DEVKIT-V1"
 		(pin_names
 			(offset 1.016)
@@ -1018,12 +1207,12 @@
 			)
 		)
 	)
-	(symbol "G5LE-1-DC5"
+	(symbol "G5LE-14-DC5"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "K"
-			(at 16.51 7.62 0)
+			(at 12.446 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1031,8 +1220,8 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "G5LE-1-DC5"
-			(at 16.51 5.08 0)
+		(property "Value" "G5LE-14-DC5"
+			(at 6.604 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1040,18 +1229,8 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CustomFootprints:G5LE-1"
-			(at 16.51 -94.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 16.51 -194.92 0)
+		(property "Footprint" "CustomFootprints:G5LE-14_SPDT"
+			(at 29.21 -94.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,8 +1239,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SPDT Through Hole Non-Latching Relay, 8 A, 5V dc"
-			(at 0 0 0)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5le.pdf"
+			(at 29.21 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "OMRON ELECTRONIC COMPONENTS - G5LE-14-DC5 - Power Relay"
+			(at 7.62 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,7 +1259,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 16.51 -394.92 0)
+			(at 29.21 -394.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1079,8 +1268,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "653-G5LE-1-DC5"
-			(at 16.51 -494.92 0)
+		(property "Mouser Part Number" "653-G5LE-14-DC5"
+			(at 29.21 -494.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,8 +1278,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/G5LE-1-DC5?qs=ImaqFqjHA4nKN7ETIjn3Lg%3D%3D"
-			(at 16.51 -594.92 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/G5LE-14-DC5?qs=lK7M36XCk6KnQoEfuo%2Fh3A%3D%3D"
+			(at 29.21 -594.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1100,7 +1289,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Omron Electronics"
-			(at 16.51 -694.92 0)
+			(at 29.21 -694.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1109,8 +1298,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "G5LE-1-DC5"
-			(at 16.51 -794.92 0)
+		(property "Manufacturer_Part_Number" "G5LE-14-DC5"
+			(at 29.21 -794.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1119,10 +1308,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "G5LE-1-DC5_1_1"
+		(symbol "G5LE-14-DC5_1_1"
 			(rectangle
 				(start 5.08 2.54)
-				(end 15.24 -7.62)
+				(end 21.59 -7.62)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1132,9 +1321,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 26.67 -2.54 180)
 				(length 5.08)
-				(name "1"
+				(name "COM"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1150,9 +1339,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 0)
+				(at 0 -1.27 0)
 				(length 5.08)
-				(name "2"
+				(name "COIL_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1168,9 +1357,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 0)
+				(at 26.67 -5.08 180)
 				(length 5.08)
-				(name "3"
+				(name "NO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1185,10 +1374,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 0 180)
+			(pin no_connect line
+				(at 26.67 0 180)
 				(length 5.08)
-				(name "4"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1204,9 +1393,9 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -2.54 180)
+				(at 0 -3.81 0)
 				(length 5.08)
-				(name "5"
+				(name "COIL_2"
 					(effects
 						(font
 							(size 1.27 1.27)

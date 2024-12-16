@@ -796,7 +796,7 @@
 			)
 		)
 	)
-	(model "/Users/jackson/PCB/custom/3D Models/ESP-32_v1.STEP"
+	(model "${CUSTOM_DIR}/3D Models/ESP-32_v1.STEP"
 		(offset
 			(xyz 6.4 1.625 -50.25)
 		)

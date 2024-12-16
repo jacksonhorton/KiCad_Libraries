@@ -215,7 +215,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "c86737e1-6be8-4611-a822-a73ae509b542")
 	)
-	(model "/Users/jackson/PCB/custom/3D Models/2N2222A.step"
+	(model "${CUSTOM_DIR}/3D Models/2N2222A.step"
 		(offset
 			(xyz 0.02 -2.3275 0)
 		)

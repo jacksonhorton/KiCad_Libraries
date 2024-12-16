@@ -246,7 +246,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "17867549-1aee-4111-9cc4-697ca50a3215")
 	)
-	(model "/Users/jackson/PCB/custom/3D Models/SN74LV1T34DBVR.step"
+	(model "${CUSTOM_DIR}/3D Models/SN74LV1T34DBVR.step"
 		(offset
 			(xyz 0 0 0)
 		)

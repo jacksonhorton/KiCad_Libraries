@@ -249,7 +249,7 @@
 		(remove_unused_layers no)
 		(uuid "ad8548bc-1b81-49a4-987c-c9bf48fbe549")
 	)
-	(model "/Users/jackson/PCB/custom/3D Models/ssd-1306_oled.step"
+	(model "${CUSTOM_DIR}/3D Models/ssd-1306_oled.step"
 		(offset
 			(xyz 18.9 -6.225 2.75)
 		)

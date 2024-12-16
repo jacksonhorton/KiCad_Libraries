@@ -262,7 +262,7 @@
 		(remove_unused_layers no)
 		(uuid "9b013f9a-e85a-45da-bbfc-651cca5dbf46")
 	)
-	(model "/Users/jackson/PCB/custom/3D Models/SS12SDP2.step"
+	(model "${CUSTOM_DIR}/3D Models/SS12SDP2.step"
 		(offset
 			(xyz 0 -2.5 0)
 		)

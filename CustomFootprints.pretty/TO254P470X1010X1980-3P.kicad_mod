@@ -220,7 +220,7 @@
 		(remove_unused_layers no)
 		(uuid "125a0541-379d-4066-ae54-dfcca6fd7951")
 	)
-	(model "/Users/jackson/PCB/custom/3D Models/MBR20100CT.step"
+	(model "${CUSTOM_DIR}/3D Models/MBR20100CT.step"
 		(offset
 			(xyz 0 0 0)
 		)

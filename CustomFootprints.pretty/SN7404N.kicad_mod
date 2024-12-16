@@ -350,7 +350,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "08b9d6c4-0c03-4431-8807-2d108967a31a")
 	)
-	(model "/Users/jackson/PCB/custom/3D Models/SN7404N.step"
+	(model "${CUSTOM_DIR}/3D Models/SN7404N.step"
 		(offset
 			(xyz 0 0 2.5)
 		)

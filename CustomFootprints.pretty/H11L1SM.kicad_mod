@@ -198,7 +198,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "32bec80b-2a07-43ab-973d-74c2905b42aa")
 	)
-	(model "/Users/jackson/PCB/custom/3D Models/H11L1SM.step"
+	(model "${CUSTOM_DIR}/3D Models/H11L1SM.step"
 		(offset
 			(xyz 0 0 0)
 		)
