@@ -1,0 +1,234 @@
+(footprint "TO254P470X1010X1980-3P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "to-220abb")
+	(tags "Schottky Diode")
+	(property "Reference" "D**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "3daf2e39-a54d-4f7e-ba96-d8e021e41fc9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TO254P470X1010X1980-3P"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "acce31d2-4a60-4a79-bd22-248ccd0d0b2d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80d98828-9efb-49b9-9cb4-099faa1b1a5a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76b29a73-e990-419c-9c87-c9eb5ed0a93a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87f5abe1-fa58-4583-b7ef-a6ccf2497481")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.66 -2.87)
+		(end -2.66 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b715e869-eeeb-4fe1-93dd-76f7e47bf473")
+	)
+	(fp_line
+		(start 7.74 -2.87)
+		(end -2.66 -2.87)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57ebd62a-f271-416c-955d-ff35a9c0736b")
+	)
+	(fp_line
+		(start 7.74 1.83)
+		(end 7.74 -2.87)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aaa1f5cb-bcde-4d0f-abef-1964940f6aeb")
+	)
+	(fp_line
+		(start -2.91 -3.12)
+		(end 7.99 -3.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eaca7db9-6d2a-48dd-bff2-59d7a301d4c4")
+	)
+	(fp_line
+		(start -2.91 2.08)
+		(end -2.91 -3.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f10248fb-f2b8-4171-aaa0-df565ea598ae")
+	)
+	(fp_line
+		(start 7.99 -3.12)
+		(end 7.99 2.08)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8af5ce13-4f96-4c6f-b1f2-ec9b7306c4d4")
+	)
+	(fp_line
+		(start 7.99 2.08)
+		(end -2.91 2.08)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b0adb68-1db8-4911-914b-d2028b190edd")
+	)
+	(fp_line
+		(start -2.66 -2.87)
+		(end 7.74 -2.87)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "afe5dfff-a112-4661-ada8-6f927a166bd7")
+	)
+	(fp_line
+		(start -2.66 -1.6)
+		(end -1.39 -2.87)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c62429cd-50a0-4663-8514-030a392da4f5")
+	)
+	(fp_line
+		(start -2.66 1.83)
+		(end -2.66 -2.87)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dc810449-a73d-4b26-9c7e-dc913f2a2c09")
+	)
+	(fp_line
+		(start 7.74 -2.87)
+		(end 7.74 1.83)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b37457cf-a175-4d41-8c3b-5e5f6026e463")
+	)
+	(fp_line
+		(start 7.74 1.83)
+		(end -2.66 1.83)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d9b7526-4659-453c-b12b-39e10e0978ce")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3abccd52-cc87-4e36-8feb-8d20218fc108")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.995 1.995)
+		(drill 1.33)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "13e8dfff-df74-41a0-a1be-b10c7d4036c9")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.995 1.995)
+		(drill 1.33)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d4a404a-0a2d-47df-aba7-89689284e7ef")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.995 1.995)
+		(drill 1.33)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "125a0541-379d-4066-ae54-dfcca6fd7951")
+	)
+	(model "/Users/jackson/PCB/custom/3D Models/MBR20100CT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

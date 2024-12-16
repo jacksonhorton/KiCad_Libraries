@@ -1,0 +1,212 @@
+(footprint "H11L1SM"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMT-6PIN-(LEAD-BEND)")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 1.52 0.671 0)
+		(layer "F.SilkS")
+		(uuid "6c38fc8f-3da5-4b3b-95d9-8b89e79cfec1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "H11L1SM"
+		(at 1.52 0.671 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "30700b6b-9c38-48db-a673-aaf96cf33dee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "CustomFootprints:H11L1SM-SMT-6PIN-_LEAD-BEND_"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52620fa1-fa79-4e3e-b699-d84ce84fbf9c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c58b4d8a-a933-43b6-8009-c11e59eb6a7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bf5b67c-fea6-4cde-b22a-c087827b3de5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.255 -3.175)
+		(end 4.255 -3.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a95dc763-751b-4f9b-9a33-f4f4a3f31967")
+	)
+	(fp_line
+		(start -4.255 3.175)
+		(end -4.255 -3.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "387777d2-5a6a-4418-9f8f-2c6d12b8c15e")
+	)
+	(fp_line
+		(start 4.255 -3.175)
+		(end 4.255 3.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d99f160-da1c-499a-b516-a42b4839c622")
+	)
+	(fp_line
+		(start 4.255 3.175)
+		(end -4.255 3.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "351d9429-dce4-4358-9b06-c03ad5806bcb")
+	)
+	(fp_circle
+		(center -2.427 5.97)
+		(end -2.60535 5.97)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5fa7bf94-a57c-4da2-b988-e4081365d9ff")
+	)
+	(fp_line
+		(start -4.255 -3.175)
+		(end 4.255 -3.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "92d53ba0-ab44-40c2-9f2c-c4d73fff6cdf")
+	)
+	(fp_line
+		(start -4.255 3.175)
+		(end -4.255 -3.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "48f01e2f-ad8e-4724-91f9-97491bbd4b91")
+	)
+	(fp_line
+		(start 4.255 -3.175)
+		(end 4.255 3.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ffeab3ae-d46e-4237-b36d-d6f2fb8820d0")
+	)
+	(fp_line
+		(start 4.255 3.175)
+		(end -4.255 3.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "06a65ab2-f1a5-4965-a230-6af74fdd257d")
+	)
+	(pad "1" smd rect
+		(at -2.54 4.505 90)
+		(size 1.52 1.78)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7ba69793-b60b-4d47-84a7-3a2085f02c33")
+	)
+	(pad "2" smd rect
+		(at 0 4.505 90)
+		(size 1.52 1.78)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "2f3e9f91-86f3-4195-a4ac-59c7abae7d95")
+	)
+	(pad "3" smd rect
+		(at 2.54 4.505 90)
+		(size 1.52 1.78)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "22068ff9-913a-4291-ba0b-2896c497e206")
+	)
+	(pad "4" smd rect
+		(at 2.54 -4.505 90)
+		(size 1.52 1.78)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "d7902e1d-8b1c-48f5-8433-813ca8a3fdfd")
+	)
+	(pad "5" smd rect
+		(at 0 -4.505 90)
+		(size 1.52 1.78)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "aa29f00d-d8a4-4784-a588-2b9bde2ba638")
+	)
+	(pad "6" smd rect
+		(at -2.54 -4.505 90)
+		(size 1.52 1.78)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "32bec80b-2a07-43ab-973d-74c2905b42aa")
+	)
+	(model "/Users/jackson/PCB/custom/3D Models/H11L1SM.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
