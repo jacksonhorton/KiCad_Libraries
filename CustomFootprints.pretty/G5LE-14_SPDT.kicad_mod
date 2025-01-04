@@ -6,7 +6,7 @@
 	(descr "G5LE-14")
 	(tags "Relay or Contactor")
 	(property "Reference" "K**"
-		(at 5.206 -6.027 0)
+		(at 7.206 -0.027 0)
 		(layer "F.SilkS")
 		(uuid "1894e38a-ad79-48a2-9c36-7593afd9710d")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "G5LE-14_SPDT"
-		(at 5.206 -6.027 0)
+		(at 7.206 -0.027 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "e9911c01-7281-4040-97a4-87fc8822662e")
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at 2 6 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "757eeaa7-5c03-4fdd-b117-814a521e4e98")
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 2 6 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "4954e3e4-878b-4f60-9d54-f01e757841ae")
@@ -53,7 +53,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 2 6 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "ab1aa754-ae32-4096-b825-05314d2298a4")
@@ -66,8 +66,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -4.55 -14.25)
-		(end -4.55 2.25)
+		(start -2.55 -8.25)
+		(end -2.55 8.25)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -76,8 +76,8 @@
 		(uuid "6e8d086c-5de0-4ca0-9582-2581201d39f6")
 	)
 	(fp_line
-		(start -4.55 2.25)
-		(end 17.05 2.25)
+		(start -2.55 8.25)
+		(end 19.05 8.25)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -86,8 +86,8 @@
 		(uuid "b0b84f04-2f64-4c87-a83e-7cf3f32d5aa3")
 	)
 	(fp_line
-		(start 17.05 -14.25)
-		(end -4.55 -14.25)
+		(start 19.05 -8.25)
+		(end -2.55 -8.25)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -96,8 +96,8 @@
 		(uuid "f65480f0-245a-467c-8822-926d0ac9fb6c")
 	)
 	(fp_line
-		(start 17.05 2.25)
-		(end 17.05 -14.25)
+		(start 19.05 8.25)
+		(end 19.05 -8.25)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -106,8 +106,8 @@
 		(uuid "4b3c7013-efd6-4bea-9494-b1440c5db650")
 	)
 	(fp_circle
-		(center -6.193 -6.301)
-		(end -6.193 -6.082)
+		(center -4.193 -0.301)
+		(end -4.193 -0.082)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -117,8 +117,90 @@
 		(uuid "370b7d83-a16a-4486-ba7b-e8992cc3c7a4")
 	)
 	(fp_line
-		(start -4.55 -14.25)
-		(end 17.05 -14.25)
+		(start 0 -2.54)
+		(end 1.778 -2.54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "124778bf-d7ff-438c-8a47-050f8b6221b7")
+	)
+	(fp_line
+		(start 0 -1.778)
+		(end 1.778 -1.778)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ab0937d5-6b60-4b3e-b894-3a368831d521")
+	)
+	(fp_line
+		(start 0 1.778)
+		(end 1.778 1.778)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d15aa934-7109-4e46-8622-805440621854")
+	)
+	(fp_line
+		(start 0 2.54)
+		(end 1.778 2.54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "be2bf9f3-7a65-4c7a-9bb6-a32e5d4cd7af")
+	)
+	(fp_line
+		(start 1.778 -2.54)
+		(end 1.778 -1.778)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1e239a19-130d-4df8-9ec8-c603de11e8dc")
+	)
+	(fp_line
+		(start 1.778 1.778)
+		(end 1.778 2.54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "71d5e7c3-afb7-4b4a-9061-0c4bc8f7f901")
+	)
+	(fp_arc
+		(start 0 1.778)
+		(mid -1.778 0)
+		(end 0 -1.778)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "77f8ac9f-2722-414c-9084-5faee0816bd4")
+	)
+	(fp_arc
+		(start 0 2.54)
+		(mid -2.54 0)
+		(end 0 -2.54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3194b150-075a-4bc7-85e6-d4dd2c3b9482")
+	)
+	(fp_line
+		(start -2.55 -8.25)
+		(end 19.05 -8.25)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -127,8 +209,8 @@
 		(uuid "a337c0ac-e23e-4cfe-b19b-8933f35e2647")
 	)
 	(fp_line
-		(start -4.55 2.25)
-		(end -4.55 -14.25)
+		(start -2.55 8.25)
+		(end -2.55 -8.25)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -137,8 +219,8 @@
 		(uuid "8bdc10f7-2b60-4cda-ace0-d2450cc7d079")
 	)
 	(fp_line
-		(start 17.05 -14.25)
-		(end 17.05 2.25)
+		(start 19.05 -8.25)
+		(end 19.05 8.25)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -147,8 +229,8 @@
 		(uuid "b5501140-f414-4792-a5e7-af222a43b6c9")
 	)
 	(fp_line
-		(start 17.05 2.25)
-		(end -4.55 2.25)
+		(start 19.05 8.25)
+		(end -2.55 8.25)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -157,7 +239,7 @@
 		(uuid "317e147e-19f6-49db-8fac-af42ea698fa4")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5.206 -6.027 0)
+		(at 7.206 -0.027 0)
 		(layer "F.Fab")
 		(uuid "5a079db6-a50f-4dde-a5e8-c020edfb6a01")
 		(effects
@@ -168,7 +250,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -2 -6)
+		(at 0 0)
 		(size 2.25 2.25)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
@@ -176,7 +258,7 @@
 		(uuid "15600d42-bcdc-4567-bdb6-7b2e4ca579d8")
 	)
 	(pad "2" thru_hole circle
-		(at 0 0)
+		(at 2 6)
 		(size 2.25 2.25)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
@@ -184,7 +266,7 @@
 		(uuid "4f47354b-6bee-4f53-82fa-e45f4726eb7a")
 	)
 	(pad "3" thru_hole circle
-		(at 12.2 0)
+		(at 14.2 6)
 		(size 2.25 2.25)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
@@ -192,7 +274,7 @@
 		(uuid "3438c8f7-5b04-49a0-aa00-9239be35f39c")
 	)
 	(pad "4" thru_hole circle
-		(at 12.2 -12)
+		(at 14.2 -6)
 		(size 2.25 2.25)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
@@ -200,7 +282,7 @@
 		(uuid "3c0dd0e5-7f3c-428a-b3df-5c73c88ba5c7")
 	)
 	(pad "5" thru_hole circle
-		(at 0 -12)
+		(at 2 -6)
 		(size 2.25 2.25)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
@@ -209,7 +291,7 @@
 	)
 	(model "${CUSTOM_DIR}/3D Models/G5LE-14-DC5.step"
 		(offset
-			(xyz -1.950000018 5.99999991 -0.09000000222)
+			(xyz 0.049999982 -0.0000000900000003 -0.09000000222)
 		)
 		(scale
 			(xyz 1 1 1)
